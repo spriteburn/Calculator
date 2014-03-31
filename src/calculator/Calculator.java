@@ -14,4 +14,8 @@ public class Calculator {
 		return x - y;
 	}
 
+	public Object average(int i, int j) {
+		return (i + j) / 2;
+	}
+
 }
