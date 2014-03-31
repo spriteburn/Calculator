@@ -2,20 +2,27 @@ package calculator;
 
 public class Calculator {
 
-	public int add(int x, int y) {
-		return x + y;
+	public int add(int i, int j) {
+		return i + j;
 	}
 
-	public int multiply(int x, int y) {
-		return x * y;
+	public int multiply(int i, int j) {
+		return i * j;
 	}
 
-	public int subtract(int x, int y) {
-		return x - y;
+	public int subtract(int i, int j) {
+		return i - j;
 	}
 
-	public Object average(int i, int j) {
+	public int average(int i, int j) {
 		return (i + j) / 2;
 	}
 
+	public double power(double i, double j) {
+		double power = 1;
+		for (int k = 0; k < j; k++) {
+			power *= i;
+		}
+		return power;
+	}
 }
