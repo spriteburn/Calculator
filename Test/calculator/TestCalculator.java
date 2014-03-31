@@ -14,7 +14,7 @@ public class TestCalculator extends TestCase {
 	}
 
 	public void testSubtract() {
-		assertEquals("testing mult(5,4)", 1, calc.subtract(5, 4));
+		assertEquals("testing mult(4,4)", 0, calc.subtract(4, 4));
 	}
 
 	public void setUp() {
