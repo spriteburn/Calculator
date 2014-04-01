@@ -28,7 +28,6 @@ public class Calculator {
 
 	public double exponential(int i) {
 		// TODO Auto-generated method stub
-		// add functionality
 		return 0.0;
 	}
 }
