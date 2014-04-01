@@ -44,5 +44,8 @@ public class TestCalculator extends TestCase {
 		assertEquals("testing exp(10)", Math.exp(10),calc.exponential(10));
 		
 	}
+	
+	@Test
+	//Conflict
 
 }
