@@ -25,4 +25,9 @@ public class Calculator {
 		}
 		return power;
 	}
+
+	public double exponential(int i) {
+		// TODO Auto-generated method stub
+		return 0.0;
+	}
 }
