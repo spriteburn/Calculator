@@ -26,9 +26,13 @@ public class Calculator {
 		return power;
 	}
 
-	public double factorial(int i) {
-		// TODO Auto-generated method stub
-		return 0.0;
+	public double factorial(double i) {
+		double factorial = 1;
+		for (double k = i; k > 0; k--) {
+			factorial *= k;
+		}
+
+		return factorial;
 	}
 
 }
