@@ -41,7 +41,7 @@ public class TestCalculator extends TestCase {
 
 	@Test
 	public void testFactorial() {
-		assertEquals("testing factorial(15)", 1307674368000.0,
+		assertEquals("testing  factorial(15)", 1307674368000.0,
 				calc.factorial(15));
 	}
 }
