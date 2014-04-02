@@ -47,6 +47,6 @@ public class TestCalculator extends TestCase {
 
 	@Test
 	public void testDivide() {
-		assertEquals("testing divide(25,5)", 5.0, calc.divide(25, 5));
+		assertEquals("testing divide(30,5)", 6.0, calc.divide(30, 5));
 	}
 }
