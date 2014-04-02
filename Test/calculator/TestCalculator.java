@@ -38,11 +38,11 @@ public class TestCalculator extends TestCase {
 	public void testPower() {
 		assertEquals("testing power(5,9)", Math.pow(5, 9), calc.power(5, 9));
 	}
-	
+
 	@Test
-	public void testExponential(){
-		assertEquals("testing exp(10)", Math.exp(10),calc.exponential(10));
-		
+	public void testFactorial() {
+		assertEquals("testing factorial(15)", 15 * 14 * 13 * 12 * 11 * 10 * 9
+				* 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1, calc.factorial(15));
 	}
-// test
+
 }
