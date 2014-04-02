@@ -35,4 +35,9 @@ public class Calculator {
 		return factorial;
 	}
 
+	public double divide(double i, double j) {
+		// TODO Auto-generated method stub
+		return 0.0;
+	}
+
 }

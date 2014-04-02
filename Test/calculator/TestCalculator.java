@@ -44,4 +44,9 @@ public class TestCalculator extends TestCase {
 		assertEquals("testing  factorial(15)", 1307674368000.0,
 				calc.factorial(15));
 	}
+
+	@Test
+	public void testDivide() {
+		assertEquals("testing divide(25,5)", 5.0, calc.divide(25, 5));
+	}
 }
