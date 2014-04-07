@@ -19,4 +19,6 @@ public class TestConverter extends TestCase {
 		assertEquals("test KM to miles (10)", 10 * 1.6, conv.KMtoMiles(10));
 	}
 
+	// comment
+
 }
